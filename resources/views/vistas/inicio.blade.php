@@ -1,7 +1,7 @@
 @extends('masterPages.mp_index')
 
 @section('contenido')
-	
+	<h1>Wololo</h1>
 <div id="lista">
 	<form id="form"  role="lista" data-toggle="validator" method="POST" action="guardarCliente" >
 	{{ csrf_field() }}
