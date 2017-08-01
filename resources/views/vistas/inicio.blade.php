@@ -57,7 +57,7 @@
     	</div>
 
     	<div class="form-group">
-    		<label for="inputName" class="control-label">Password:</label>
+    		<label for="inputName" class="control-label">Contraseña:</label>
     		<input name="pass" type="password" data-minlength="6" class="form-control"  v-model="formCliente.pass" required>
     		 <div class="help-block with-errors"></div>
     	</div>
