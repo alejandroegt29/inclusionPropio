@@ -51,7 +51,7 @@
     		<div class="help-block with-errors"></div>
     	</div>
     	<div class="form-group">
-    		<label for="inputName" class="control-label">Correo:</label>
+    		<label for="inputName" class="control-label">Correo Electronico:</label>
     		<input name="correo" type="text" class="form-control" v-model="formCliente.correo" required>
     		<div class="help-block with-errors"></div>
     	</div>
