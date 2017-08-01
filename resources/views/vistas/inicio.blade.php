@@ -12,7 +12,7 @@
 			<div class="form-group">
 			<label for="">Indique su rol:</label> 
 		<select name="idSelect" v-model="formCliente.idSelect" class="form-control" required >
-			<option value="">Seleccione...</option>
+			<option value="">Seleccione.....</option>
 			<option v-bind:value="bdnueva.id" v-for="bdnueva in bdListaroles" >@{{ bdnueva.nombre }}</option>
 		</select>
 		<div class="help-block with-errors"></div>
